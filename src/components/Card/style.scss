@@ -1,5 +1,23 @@
 @import '../../Var.scss';
 
 .card {
+  padding: 1rem;
+  width: 20rem;
+  border-radius: 8px;
   border-top: solid 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  h2 {
+    font-size: 1.3rem;
+    color: $veryDarkBlue;
+  }
+
+  p {
+    color: $grayishBlue;
+  }
+
+  div {
+    display: flex;
+    flex-flow: row-reverse;
+  }
 }

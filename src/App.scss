@@ -1,0 +1,29 @@
+@import './Var.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: $veryLightGray;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
